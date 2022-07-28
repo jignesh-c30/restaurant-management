@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reservation.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Pizzeria</a>
+        <div class="bx bx-menu" id="menu-icon">
+
+        </div>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#reserve">Reserve a Table</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About Us</a></li>
+        </ul>
+
+    </header><br><br><br>
+    <section>
+        <div class="info">
+            <ul class="showcase">
+
+                <li>
+                    <div class="table"></div>
+                    <small>N/A</small>
+                </li>
+
+                <li>
+                    <div class="table-selected"></div>
+                    <small>Selected</small>
+                </li>
+
+                <li>
+                    <div class="table-occupied"></div>
+                    <small>Occupied</small>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="table">1</div>
+                <div class="table">2</div>
+                <div class="table">3</div>
+                <div class="table">4</div>
+                <div class="table-occupied">5</div>
+                <div class="table">6</div>
+                <div class="table">7</div>
+                <div class="table">8</div>
+            </div>
+            <div class="row">
+                <div class="table">11</div>
+                <div class="table">12</div>
+                <div class="table-occupied">13</div>
+                <div class="table">14</div>
+                <div class="table">15</div>
+                <div class="table">16</div>
+                <div class="table">17</div>
+                <div class="table">18</div>
+            </div>
+        </div>
+
+    </section>
+    <p class="text">
+        You have selected <span id="count">0</span> seats for a price of $<span id="total">0</span>
+    </p>
+    <script src="reservation.js"></script>
+
+</body>
+
+</html>
